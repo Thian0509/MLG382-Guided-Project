@@ -35,7 +35,7 @@ def grade_class_distribution():
 def absences_distribution():
     # Generate the plot
     plt.figure(figsize=(8, 4))
-    sns.histplot(df['Absences'], bins=20, kde=True, color='blue')
+    sns.histplot(data=df, x='Absences', bins=20, kde=True, color='blue')
     plt.title('Absences Distribution')
     plt.xlabel('Number of Absences')
     plt.ylabel('Frequency')
