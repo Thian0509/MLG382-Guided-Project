@@ -78,3 +78,4 @@ Werkzeug
 xgboost
 yellowbrick
 zipp
+gunicorn
