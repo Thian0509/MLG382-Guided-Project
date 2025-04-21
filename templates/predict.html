@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Grade Class</title>
+</head>
+<body>
+    <h1>Predict Student Grade Class</h1>
+    <form action="/predict" method="POST">
+        <label for="ParentalEducation">Parental Education (0-4):</label>
+        <input type="number" id="ParentalEducation" name="ParentalEducation" required><br><br>
+
+        <label for="StudyTimeWeekly">Study Time Weekly (hours):</label>
+        <input type="number" step="0.1" id="StudyTimeWeekly" name="StudyTimeWeekly" required><br><br>
+
+        <label for="Absences">Absences:</label>
+        <input type="number" id="Absences" name="Absences" required><br><br>
+
+        <label for="Tutoring">Tutoring (0: No, 1: Yes):</label>
+        <input type="number" id="Tutoring" name="Tutoring" required><br><br>
+
+        <label for="ParentalSupport">Parental Support (0: No, 1: Yes):</label>
+        <input type="number" id="ParentalSupport" name="ParentalSupport" required><br><br>
+
+        <label for="GPA">GPA:</label>
+        <input type="number" step="0.1" id="GPA" name="GPA" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+    <a href="/">Back to Home</a>
+</body>
+</html>
