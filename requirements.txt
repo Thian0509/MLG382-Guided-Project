@@ -52,7 +52,6 @@ pyparsing
 PyPDF2
 python-dateutil
 pytz
-pywin32
 PyYAML
 pyzmq
 regex
